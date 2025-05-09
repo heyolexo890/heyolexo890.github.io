@@ -1,0 +1,135 @@
+body::before{
+    content:"";
+    background-image: url("background-img.jpg");
+    opacity: 0.5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+section {
+    background-color: rgb(192, 248, 215);
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(75, 138, 93);
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+   max-width: 150px;
+   display: block;
+   margin: auto;
+   margin-top: 40px;
+   border: 3px solid rgb(211, 255, 231);
+   border-radius: 20px;
+}
+
+/* Title */
+h1 {
+    color: rgb(243, 255, 248);
+    text-align: center;
+}
+
+/* Personal Info, Education, Skills */
+h3 {
+    color: white;
+    background-color: rgb(30, 59, 38);
+    border: 2px solid rgb(243, 255, 248);
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+h3:hover {
+    color: white;
+    transform: translateX(5px);
+    background-color: #4c9169;
+    border-color: rgb(11, 58, 18);
+    transition: color 0.2s ease, transform 0.2s ease, background-color 0.2s ease; 
+}
+
+/* Technical Skills, Soft Skills */
+h4 {
+    color: white;
+    background-color: rgb(30, 59, 38);
+    border: 2px solid rgb(243, 255, 248);
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-bottom: 5px;
+}
+
+h4:hover {
+    color: white;
+    transform: translateX(5px);
+    background-color: #4c9169;
+    border-color: rgb(11, 58, 18);
+    transition: color 0.2s ease, transform 0.2s ease, background-color 0.2s ease; 
+}
+
+/* Hyperlink Stuff - Start */
+h2 {
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+
+a {
+    color: rgb(211, 255, 231);
+}
+
+a:hover {
+    color: #8de1e4;
+    transform: translateX(5px);
+}
+
+a:visited {
+    color: darkmagenta;
+    transform: translateX(5px);
+}
+/* Hyperlink Stuff - End */
+
+p {
+    color: white;
+    font-size: medium;
+    text-align: left;
+}
+
+/* List Stuff - Start */
+li {
+    background-color: white;
+    border: 2px solid rgb(30, 59, 38);
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-right: 5px;
+    transition: color 0.2s ease, transform 0.2s ease, background-color 0.2s ease; 
+    flex: 1 1;
+}
+
+li:hover {
+    color: rgb(61, 42, 16);
+    transform: translateX(5px);
+    background-color: #fcfcf1;
+}
+/*List Stuff - End */
